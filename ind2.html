@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>EX 2</title>
+	<link href="style2.css" rel="stylesheet">
+<!-- 	<link href="css/bootstrap.css" rel="stylesheet"> -->
+	<script>
+		document.createElement("header");  <!-- IE -->
+		document.createElement('figure');
+		document.createElement('figcaption');
+	</script>
+</head>
+<body>
+	<header>
+		<div id="slider"> <!-- обгортка -->
+			<input type="radio" name="slider" id="slide1" checked=""> 
+			<input type="radio" name="slider" id="slide2">
+			<input type="radio" name="slider" id="slide3">
+			<input type="radio" name="slider" id="slide4">
+
+			<div id="slides"> <!-- рамка -->
+				<div id="overflow"> <!-- приховує картинки -->
+					<div class="inner"> <!-- усі картинки -->
+						<div class="page"></div>
+						<div class="page"></div>
+						<div class="page"></div>		
+						<div class="page"></div>
+					</div> <!-- .inner -->
+				</div> <!-- end #overflow -->
+			</div> <!-- end #slides -->	
+	
+			<div id="active"> <!-- кнопки знизу -->
+				<label for="slide1"></label>
+				<label for="slide2"></label>
+				<label for="slide3"></label>
+				<label for="slide4"></label>
+			</div> <!-- end #active  -->
+		</div>
+		<div class="main1">
+			<nav>
+				<ul class="menu">
+					<li><a href="#">Home</a></li>
+					<li><a href="#">About</a></li>
+					<li><a href="#">Services</a></li>
+					<li><a href="#">Pricelist</a></li>
+					<li><a href="#">Portfolio</a></li>
+					<li><a href="#">Contacts</a></li>
+				</ul>
+			</nav>
+			<h1>Exterior Design</h1>
+			<h2>Maintaining areas harmonious with <br> the natural environment</h2>
+			<div class="img1"><img src="images/copy2.png"></div>	
+		</div>
+		<hr>
+	</header>
+	<div id="wrapper">
+		<div class="main">
+			<article>
+				<figure>
+					<figcaption><span>01.<hr></span>master<br><span class="caption">plans</span></figcaption>
+					<img src="images/02303_26.png" alt="master plans"/>
+					<h3>Vivamus sed arcu dui, eu incidunt sem.</h3>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+					<hr>
+					<div class="read_more"><a href="#">Read more &#8250 </a></div>
+				</figure>
+				<figure>
+				<figcaption><span>02.<hr></span>drainag<br><span class="caption">plans</span></figcaption>
+					<img src="images/02303_34.png" alt="drainage plans"/>
+					<h3>Vivamus sed arcu dui, eu incidunt sem.</h3>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+					<hr>	
+					<div class="read_more"><a href="#">Read more &#8250 </a></div>
+				</figure>
+				<figure>
+				<figcaption><span>03.<hr></span>garden<br><span class="caption">design</span></figcaption>
+					<img src="images/02303_36.png" alt="garden design"/>
+					<h3>Vivamus sed arcu dui, eu incidunt sem.</h3>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+					<hr>
+					<div class="read_more"><a href="#">Read more &#8250 </a></div>
+				</figure>
+				<figure>
+				<figcaption><span>04.<hr></span>plantin<br><span class="caption">layout</span></figcaption>
+					<img src="images/02303_32.png" alt="planting layout"/>
+					<h3>Vivamus sed arcu dui, eu incidunt sem.</h3>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+					<hr>
+					<div class="read_more"><a href="#">Read more &#8250 </a></div>
+				</figure>
+			</article>
+			<hr id="top">
+			<div class="banner">
+				<p>we can help your wishes turn<br><span id="to">to a stylish project &#33 </span></p>
+				<img src="images/pattern.png"><div id="circle">
+				<p id="get_off">get<br>20%<br>off</p>
+				</div><p id="only_this_month">Only this month on<br>Patios & raised patios</p><a href="#">click here </a></div>
+				<hr id="bottom">
+			<div id="bottom_block">
+			<div id="welcome">
+				<h4>Welcome!</h4>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat.</p>
+					<div class="column">
+						<div class="circle2"><p>a&#46 </p><img src="images/bb.png"></div>
+						<p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+					</div>
+					<div class="column">
+						<div class="circle2"><p>b&#46 </p><img src="images/bb.png"></div>
+						<p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+					</div>
+					<div class="column">
+						<div class="circle2"><p>c&#46 </p><img src="images/bb.png"></div>
+						<p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+					</div>
+					<hr id="under_column">
+					<a href="#">Read more &#8250 </a>
+			</div>
+			<div id="our_services">
+				<h4>Our services</h4>
+				<ul id="our_services_list">
+					<li><a href="#">Garden maintenance program</a></li>
+					<li><a href="#">Water teatures & ponds</a></li>
+					<li><a href="#">Poolscapes</a></li>
+					<li><a href="#">Retaining & seat walls</a></li>
+					<li><a href="#">Walkways</a></li>
+					<li><a href="#">Paver driveys</a></li>
+					<li><a href="#">Landscape architecture / design</a></li>
+					<li><a href="#">Project manegement & phasing</a></li>
+					<li><a href="#">Project installation</a></li>
+				</ul>
+			</div>
+			</div>
+		</div>	
+	</div>
+	<footer>
+		<div class="main">
+			<div id="footer_copyright">
+				<p>@ 2012 Exterior design</p>
+			</div><!-- 
+			<div id="social_accounts">
+				<a href="#"><img src="images/social1.png" alt="youtube"></a>
+				<a href="#"><img src="images/social1.png" alt="youtube"></a>
+				<a href="#"><img src="images/social1.png" alt="youtube"></a>
+			</div> -->
+		</div>
+	</footer>
+</body>
